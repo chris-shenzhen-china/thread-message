@@ -17,10 +17,6 @@ History:
 
 #include <string> //c++数据类型定义
 
-#define USE_LOG4Z 1
-
-#include "../../log4z/log4z.h"
-
 
 namespace threadmessage
 {

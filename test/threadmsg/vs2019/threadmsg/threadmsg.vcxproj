@@ -139,17 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\release\log4z\log4z.cpp" />
     <ClCompile Include="..\..\..\..\release\threadmessage\src\message.cpp" />
     <ClCompile Include="..\..\..\..\release\threadmessage\src\thread.cpp" />
+    <ClCompile Include="..\..\..\log4z\log4z.cpp" />
     <ClCompile Include="..\..\main.cpp" />
     <ClCompile Include="..\..\receiver.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\release\log4z\log4z.h" />
     <ClInclude Include="..\..\..\..\release\threadmessage\include\message.h" />
     <ClInclude Include="..\..\..\..\release\threadmessage\include\thread.h" />
     <ClInclude Include="..\..\..\..\release\timer\timer.h" />
+    <ClInclude Include="..\..\..\log4z\log4z.h" />
     <ClInclude Include="..\..\main.h" />
     <ClInclude Include="..\..\receiver.h" />
   </ItemGroup>

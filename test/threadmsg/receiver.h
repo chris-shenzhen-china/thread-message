@@ -23,6 +23,8 @@ History:
 //for timer
 #include "../../release/timer/timer.h"
 
+//for log output
+#include "../log4z/log4z.h"
 
 
 #include <queue>

@@ -36,7 +36,7 @@
     <ClCompile Include="..\..\receiver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\release\log4z\log4z.cpp">
+    <ClCompile Include="..\..\..\log4z\log4z.cpp">
       <Filter>log4z</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,7 +56,7 @@
     <ClInclude Include="..\..\receiver.h">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\release\log4z\log4z.h">
+    <ClInclude Include="..\..\..\log4z\log4z.h">
       <Filter>log4z</Filter>
     </ClInclude>
   </ItemGroup>
