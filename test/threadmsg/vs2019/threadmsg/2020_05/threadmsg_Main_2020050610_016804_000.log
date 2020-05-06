@@ -1,0 +1,10 @@
+2020-05-06 10:57:43.489 [6232] LOG_ALARM -----------------  log4z thread started!   ---------------------------- log4z.cpp:1923
+2020-05-06 10:57:43.494 [6232] LOG_ALARM logger id=0 key=Main name=Main path=./ level=2 display=false log4z.cpp:1933
+2020-05-06 10:57:43.496 [20500] LOG_INFO MsgReceiver--> msgreceiver thread running...... receiver.cpp:84
+2020-05-06 10:57:46.497 [5084] LOG_INFO MsgReceiver--> receive 3s timer msg: 1: message count: 1 receiver.cpp:135
+2020-05-06 10:57:49.498 [5084] LOG_INFO MsgReceiver--> receive 3s timer msg: 1: message count: 2 receiver.cpp:135
+2020-05-06 10:57:52.499 [5084] LOG_INFO MsgReceiver--> receive 3s timer msg: 1: message count: 3 receiver.cpp:135
+2020-05-06 10:57:55.500 [5084] LOG_INFO MsgReceiver--> receive 3s timer msg: 1: message count: 4 receiver.cpp:135
+2020-05-06 10:57:58.501 [5084] LOG_INFO MsgReceiver--> receive 3s timer msg: 1: message count: 5 receiver.cpp:135
+2020-05-06 10:58:01.502 [5084] LOG_INFO MsgReceiver--> receive 3s timer msg: 1: message count: 6 receiver.cpp:135
+2020-05-06 10:58:04.503 [5084] LOG_INFO MsgReceiver--> receive 3s timer msg: 1: message count: 7 receiver.cpp:135

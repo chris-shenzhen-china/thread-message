@@ -1,0 +1,2 @@
+D:\project-vs\network\relax-cpp\test\threadmsg\vs2019\threadmsg\x64\Debug\threadmsg.exe
+D:\project-vs\network\relax-cpp\test\threadmsg\vs2019\threadmsg\x64\Debug\threadmsg.pdb
