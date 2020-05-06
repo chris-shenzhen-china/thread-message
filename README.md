@@ -13,3 +13,6 @@
 + CThread::sendMessage发送消息给应用线程，如实例中MsgReceiver线程
 + 实现virtual 函数handleMessage()接收消息，详见实例： MsgReceiver::handleMessage
 + 实现virtual 函数stopThread()可动态停止线程
+
+### 其他说明
++ 测试工程中使用了YaweiZhang <yawei.zhang@foxmail.com>的log4z用于debug信息输出
