@@ -21,5 +21,21 @@
 + 测试工程中使用了YaweiZhang <yawei.zhang@foxmail.com>的log4z用于debug信息输出
 
 <span id="English">2.English</span>
-### 其他说明
-+ 测试工程中使用了YaweiZhang <yawei.zhang@foxmail.com>的log4z用于debug信息输出
+### Multithreading and message queue
+Message queue and multithreading based on standard C ++ thread, mutex, queue, condition_variable and other technologies. The goal is that it can be run cross-platform in operating system environments such as windows, linux, android jni, macos, etc., without writing a set of codes for each operating system. Server-side software is generally of a modular design, and message communication is indispensable between functional modules. Thread-message may be the solution you are looking for.
+
+### test project description
++ can be run in vs2019
++ timer send msg to thread MsgReceiver
++ MsgReceiver receive the msg and output debug info
++ please use it carefully
+
+### usage
++ MsgReceiver extend CThread
++ CThread::Start() the message receive thread
++ CThread::SendMessage send the message to thread MsgReceiver
++ Implement the virtual function handleMessage () to receive messages. For details, see the example: MsgReceiver :: handleMessage
++ Implement the virtual function stopThread () to stop the thread dynamically
+
+### other
+The log4z of YaweiZhang yawei.zhang@foxmail.com was used in the test project for debug information output
