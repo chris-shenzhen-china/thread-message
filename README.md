@@ -1,5 +1,5 @@
 ### 多线程和消息队列
-基于标准C++的thread，mutex，queue，condition_variable等技术的消息队列和多线程。目标是可以在windows，linux，android jni，macos等操作系统环境中跨平台使用，不用再为每个操作系统写一套代码。
+基于标准C++的thread，mutex，queue，condition_variable等技术的消息队列和多线程。目标是可以在windows，linux，android jni，macos等操作系统环境中跨平台使用，不用再为每个操作系统写一套代码。服务器端软件一般是模块化设计，功能模块之间比不可少的需要消息通信，thread-message或许就是你在寻找的解决方案。
 
 ### 测试工程说明
 + 提供vs2019下可编译运行通过的测试代码
